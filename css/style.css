@@ -3,3 +3,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* NAV */
+.nav{
+    position: fixed;
+    width:100vw;
+}
+
+.nav::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.nav__list-left{
+    float: left;
+}
+
+.nav__list-right{
+    float: right;
+}
+
+.nav__list-left li,.nav__list-right li{
+    display: inline-block;
+    font-size: small;
+    margin: 10px 5px;
+}
+
+.nav__list-right li{
+    line-height: 25px;
+    margin: 10px 15px;
+}
+
+.nav__list-left a,.nav__list-right a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+}
+
+.nav__logo{
+    vertical-align: middle;
+}
+
+.nav__button a{
+    background-color: #0061FF;
+    color: white;
+    padding: 5px 15px;
+    margin-right: 10px;
+}
+/* FINE NAV */
