@@ -11,18 +11,20 @@ body{
 
 /* DIMENSIONI */
 .col_3_9{
-    width: calc(1330px / 9 * 3);
+    width: calc(100% / 9 * 3);
 }
 
 .col_6_9{
     width: calc(1330px / 9 * 6);
 }
 
+
 /* UTILITIES */
     .button_blue{
         background-color: #0061FF;
         color: white;
         text-decoration: none;
+        padding: 5px 25px;
     }
 
 
@@ -31,6 +33,7 @@ body{
     position: fixed;
     width:100%;
     background-color: white;
+    z-index: 99;
 }
 
 .nav::after{
@@ -88,7 +91,7 @@ body{
     width:1330px;
     margin:auto;
     position: relative;
-    top: 60px;
+    top: 80px;
 }
 
 .container__hero::after{
@@ -104,7 +107,7 @@ body{
 .hero__container-text{
     float: left;
     display: inline-block;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .hero__button{
@@ -115,14 +118,96 @@ body{
 .hero__icon{
     font-size: xxx-large;
     margin-top:30px;
+    color: #081753;
 }
 
 .hero__container-img{
     display: inline-block;
     float: left;
-    padding-left: 150px;
+    margin-top: 50px;
+}
+/* FINE HEADER */
+
+.main{
+    width: 1000px;
+    margin: 150px auto;  
 }
 
-.hero__container-img img{
-    width: 550px ;
+.main h2{
+    font-size: 40px;
+}
+
+.main__radiobutton-container{
+    padding-top: 50px;
+}
+
+.main__col-container{
+    margin-top: 40px;
+    word-spacing: -10px;
+}
+
+.main__col-container{
+
+}
+
+.main__col{
+    display: inline-block;
+    word-spacing: normal;
+    padding: 0 20px;
+}
+
+.main__col-text{
+    padding: 0 25px;
+    border: 1px solid lightgray;
+    padding-top: 25px;
+    min-height: 1000px;
+}
+
+.main__col-planType{
+    text-align: center;
+    padding: 10px 0;
+    border-top:1px lightgray solid;
+    border-left:1px lightgray solid;
+    border-right:1px lightgray solid;
+}
+
+
+.main__col-text h5{
+    margin: 10px 0;
+}
+
+.main__col-text h6{
+    color: #637381;
+}
+
+.main__col-planDifference{
+    margin: 25px 0;
+}
+
+.main__col-text li{
+    padding: 15px 0;
+    font-size: 14px;
+    list-style: none;
+}
+
+.main__col-text p{
+    margin: 30px 0;
+}
+
+.main__col-text p  a{
+    color: #0061FF;
+}
+
+.main__col-text hr{
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+.main__col-checkIcon{
+    color: #0061FF;
+    margin-left: -15px;
+}
+
+.main__col-icon{
+    margin-left: -10px;
 }
