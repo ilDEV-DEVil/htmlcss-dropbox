@@ -136,14 +136,14 @@ body{
 }
 /* FINE HEADER */
 
-.main{
+.main__container{
     width: 1000px;
     margin: 150px auto;  
 }
 
 
 /* PLAN BOX */
-.main h2{
+.main__container h2{
     font-size: 40px;
 }
 
@@ -298,7 +298,12 @@ body{
 
 /* OPERATION BOX */
 
-.main__operation-item::after{
+.main__operation-container{
+    width: 100%;
+    margin: auto;
+}
+
+.main__operation-container::after{
     content: "";
     display: table;
     clear: both;
@@ -318,4 +323,110 @@ body{
 
 .main__operation-item h3{
     padding-bottom: 20px;
+}
+
+/* TEAM BOX*/
+.main__team-container{
+    margin: 50px auto;
+    width: 100%;
+}
+
+.main__team-title{
+    width: 1000px;
+    margin: auto;
+}
+
+.main__team-container h2{
+    font-size: 40px;
+}
+
+.main__team-container a{
+    color: #0061FF ;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.main__square-container-all{
+    margin-top:40px ;
+}
+
+.main__square-container-all::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main__square-container-left{
+    width: 20%;
+    float: left;
+}
+
+.main__square-container-left::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main__square{
+    width: 50%;
+    height: 10vw;
+    position: relative;
+    float: left;
+}
+
+.main__square img{
+    max-height: 100%;
+    max-width: 100%;
+    padding: 0 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    filter: invert(100%);
+}
+
+.main__square--green{
+    background-color: #ABD7A5;
+}
+
+.main__square--bordeaux{
+    background-color: #7F3753;
+}
+
+.main__square--turquoise{
+    background-color: #199ED3;
+}
+
+.main__square--redPastel{
+    background-color: #FF4747;
+}
+
+.main__square-container-center{
+    width: 60%;
+    min-height: 20vw;
+    background-color: #F7F7F7;
+    float: left;
+}
+
+.main__square-center-box{
+    padding: 30px 0 0 30px;
+}
+
+.main__square-container-center img{
+    max-height: 40px;
+}
+
+.main__square-container-center hr{
+    width: 50px;
+    border-top:1px solid lightgrey;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+.main__square-container-right{
+    width: 20%;
+    float: left;
 }
