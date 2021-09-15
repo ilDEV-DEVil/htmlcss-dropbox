@@ -14,6 +14,14 @@ body{
     width: calc(100% / 9 * 3);
 }
 
+.col_4_9{
+    width: calc(1330px / 9 * 4);
+}
+
+.col_5_9{
+    width: calc(1330px / 9 * 5);
+}
+
 .col_6_9{
     width: calc(1330px / 9 * 6);
 }
@@ -133,6 +141,8 @@ body{
     margin: 150px auto;  
 }
 
+
+/* PLAN BOX */
 .main h2{
     font-size: 40px;
 }
@@ -240,6 +250,7 @@ body{
 
 .main__col-horizontal-text p{
     margin: 20px 0;
+    font-size: 14px;
 }
 
 
@@ -251,7 +262,38 @@ body{
 
 }
 
-.main__col-horizontal-text a{
-    
+/* PARTNER BOX */
+.main__partner-container{
+    width: 100%;
+    margin: 80px auto;
+}
+
+.main__partner-container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main__partner-img{
+    float: left;
+    width: 60%;
+}
+
+.main__partner-text{
+    float: left;
+    width: 40%;
+    padding: 20px 0px 20px 50px;
+}
+
+.main__partner-text p{
+    padding: 30px 0;
+}
+
+.button--white{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
     
 }
+
+/* OPERATION BOX */
