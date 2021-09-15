@@ -297,3 +297,25 @@ body{
 }
 
 /* OPERATION BOX */
+
+.main__operation-item::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main__operation-item{
+    float: left;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.main__operation-item img{
+    object-fit: contain;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.main__operation-item h3{
+    padding-bottom: 20px;
+}
