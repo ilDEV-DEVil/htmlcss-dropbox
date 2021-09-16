@@ -8,6 +8,9 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+h3{
+    font-size: 25px;
+}
 
 /* DIMENSIONI */
 .col_3_9{
@@ -151,6 +154,10 @@ body{
     padding-top: 50px;
 }
 
+.main__radiobutton-container input:last-of-type{
+    margin-left:20px;
+}
+
 .main__col-container{
     margin-top: 40px;
     word-spacing: -10px;
@@ -175,6 +182,10 @@ body{
     border-right:1px lightgray solid;
 }
 
+.main__col-planType span{
+    margin-left: 5px;
+}
+
 .main__col-text{
     padding: 0 25px;
     border: 1px solid lightgray;
@@ -184,6 +195,8 @@ body{
 
 .main__col-text h5{
     margin: 10px 0;
+    font-size: 14px;
+    font-weight: 900;
 }
 
 .main__col-text h6{
@@ -195,9 +208,23 @@ body{
 }
 
 .main__col-text li{
-    padding: 15px 0;
+    padding: 20px 0;
     font-size: 14px;
     list-style: none;
+}
+
+.main__col-text li div{
+    margin-left: 0px;
+    display: inline-block;
+    line-height: 14px;
+    vertical-align:top;
+    width: 90%;
+    margin-left: 5px;
+}
+
+.main__col-icon{
+   line-height: 14px;
+   vertical-align: top;
 }
 
 .main__col-text p{
@@ -215,12 +242,9 @@ body{
 
 .main__col-checkIcon{
     color: #0061FF;
-    margin-left: -15px;
+    vertical-align: top;
 }
 
-.main__col-icon{
-    margin-left: -10px;
-}
 
 .main__col-horizontal{
     width: calc(100% - 40px);
@@ -246,6 +270,12 @@ body{
 
 .main__col-horizontal-text h3{
     margin: 20px 0;
+    font-size: 25px;
+}
+
+.main__col-horizontal-text h4{
+    font-size: 14px;
+    font-weight: 900;
 }
 
 .main__col-horizontal-text p{
@@ -323,6 +353,7 @@ body{
 
 .main__operation-item h3{
     padding-bottom: 20px;
+    font-weight: 900;
 }
 
 .main__operation-item a{
@@ -524,9 +555,9 @@ body{
     margin-bottom: 60px;
 }
 
-.footer__box h4{
+.footer__box h3{
     /* color: white; */
-    font-size: 14px;
+    font-size: 25px;
     padding-bottom: 15px;
 }
 
@@ -538,10 +569,14 @@ body{
 
 .footer__container>hr{
     width: 100px;
-    border-top:1px solid lightgrey;
+    border-top:1px solid #827a7a;
     border-left: 0;
     border-right: 0;
     border-bottom: 0;
     padding-bottom: 40px;
     clear: left;
+}
+
+.footer__container>p{
+    color:#827a7a ;
 }
