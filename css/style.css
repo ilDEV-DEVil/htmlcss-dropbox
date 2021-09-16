@@ -325,6 +325,10 @@ body{
     padding-bottom: 20px;
 }
 
+.main__operation-item a{
+    color: black;
+}
+
 /* TEAM BOX*/
 .main__team-container{
     margin: 50px auto;
@@ -426,7 +430,7 @@ body{
 }
 
 .main__square-center-box{
-    padding: 30px 0 0 30px;
+    padding:40px;
 }
 
 .main__square-container-center img{
@@ -477,5 +481,67 @@ body{
     background-color: white;
     color: black;
     font-size: 14px;
-    margin-top: 100px;
+    margin-top: 115px;
+}
+
+.main__faq-container{
+    width: 1000px;
+    margin:50px auto;
+}
+
+.main__faq-container h3{
+    margin-bottom: 40px;
+}
+
+.main__faq-container h5{
+    padding: 20px 0;
+    border-top: lightgrey 1px solid;    
+    border-bottom: lightgrey 1px solid;
+}
+
+.footer{
+    background-color: black;
+}
+
+
+.footer__container{
+    margin: auto;
+    padding: 100px 0 70px 0;
+    width:80%; 
+    color: white;   
+}
+
+.footer__container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer__box{
+    /* padding: 80px 80px; */
+    width: calc(100% / 5);
+    float: left;
+    margin-bottom: 60px;
+}
+
+.footer__box h4{
+    /* color: white; */
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.footer__box p{
+    /* color: white; */
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.footer__container>hr{
+    width: 100px;
+    border-top:1px solid lightgrey;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    padding-bottom: 40px;
+    clear: left;
 }
