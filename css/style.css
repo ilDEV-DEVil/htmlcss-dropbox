@@ -134,8 +134,8 @@ h3{
 
 .hero__container-img{
     display: inline-block;
-    float: left;
     margin-top: 50px;
+    float: left ;
 }
 /* FINE HEADER */
 
@@ -527,7 +527,15 @@ h3{
 .main__faq-container h5{
     padding: 20px 0;
     border-top: lightgrey 1px solid;    
+}
+
+.main__faq-container h5:last-child{
     border-bottom: lightgrey 1px solid;
+}
+
+.main__faq-container span{
+    margin-left: calc(100% - 20px);
+    
 }
 
 .footer{
